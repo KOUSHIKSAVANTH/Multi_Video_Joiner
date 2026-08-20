@@ -1,2 +1,12 @@
-yt-dlp
+
+---
+
+## `requirements.txt`
+
+Since FFmpeg is installed separately and is **not a normal pip dependency**, keep this file simple:
+
+```text
 PySide6
+yt-dlp
+
+pip install -r requirements.txt
