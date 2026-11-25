@@ -1,12 +1,4 @@
-
----
-
-## `requirements.txt`
-
-Since FFmpeg is installed separately and is **not a normal pip dependency**, keep this file simple:
-
-```text
-PySide6
-yt-dlp
-
-pip install -r requirements.txt
+PySide6>=6.6
+yt-dlp>=2025.1.1
+# Provides a bundled FFmpeg when none is installed on the system
+imageio-ffmpeg>=0.5

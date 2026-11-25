@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-video-joiner"
+version = "3.0.0"
+description = "Desktop app to download, trim, restyle and join videos from links or local files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "KOUSHIKSAVANTH" }]
+keywords = ["video", "joiner", "yt-dlp", "ffmpeg", "clips", "dataset", "pyside6"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: X11 Applications :: Qt",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "PySide6>=6.6",
+    "yt-dlp>=2025.1.1",
+    "imageio-ffmpeg>=0.5",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.10", "pillow>=10"]
+test = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner"
+
+[project.gui-scripts]
+multi-video-joiner = "mvjoiner.app:main"
+
+[tool.setuptools]
+packages = ["mvjoiner"]
+
+[tool.setuptools.package-data]
+mvjoiner = ["assets/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

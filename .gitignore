@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------- Build output
+build/
+dist/
+*.spec
+
+# ---------------------------------------------------------------- Media made while using/testing the app
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.m4v
+*.flv
+*.mp3
+*.m4a
+*.wav
+*.part
+*.ytdl
+*.frag*
+downloads/
+temp/
+output/
+dataset_output/
+manifest.csv
+*_chapters.txt
+*.mvj
+
+# ---------------------------------------------------------------- Secrets & personal data
+# Browser cookies exported for yt-dlp contain your logged-in sessions - never commit them.
+*cookies*.txt
+*.cookies
+.env
+.env.*
+*.pem
+*.key
+*.log
+yt-dlp.conf
+.cache/
+
+# ---------------------------------------------------------------- Editors / OS / tools
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
