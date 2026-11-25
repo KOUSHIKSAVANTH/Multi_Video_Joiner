@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner/releases/latest">Download for Windows</a> ·
+  <a href="https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner/releases/latest">Download for Windows</a> ·
   <a href="#how-to-use-it">How to use</a> ·
   <a href="LICENSE">MIT License</a>
 </p>
@@ -57,7 +57,7 @@ Paste links from YouTube, Instagram, Vimeo, X and [1,800+ other sites](https://g
 
 ### Option 1: Windows installer (recommended)
 
-1. Go to the [**latest release**](https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner/releases/latest).
+1. Go to the [**latest release**](https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner/releases/latest).
 2. Download **`MultiVideoJoiner-Setup.exe`** and run it.
 3. Open **Multi Video Joiner** from the **Start menu**.
 
@@ -76,15 +76,15 @@ If you want it in the Start menu, use **Tools → Add to Start menu & desktop** 
 Requires Python 3.10 or newer.
 
 ```bash
-pip install git+https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner.git
+pip install git+https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner.git
 multi-video-joiner
 ```
 
 ### Option 4: Run from source
 
 ```bash
-git clone https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner.git
-cd Multiple_Video_URL_download_and_Joiner
+git clone https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner.git
+cd Multi_Video_Joiner
 pip install -r requirements.txt
 python main.py
 ```

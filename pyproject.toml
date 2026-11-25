@@ -28,7 +28,7 @@ build = ["pyinstaller>=6.10", "pillow>=10"]
 test = ["pytest>=8"]
 
 [project.urls]
-Homepage = "https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner"
+Homepage = "https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner"
 
 [project.gui-scripts]
 multi-video-joiner = "mvjoiner.app:main"

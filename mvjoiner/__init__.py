@@ -3,4 +3,4 @@
 APP_NAME = "Multi Video Joiner"
 APP_ID = "MultiVideoJoiner"
 __version__ = "3.0.0"
-REPO_URL = "https://github.com/KOUSHIKSAVANTH/Multiple_Video_URL_download_and_Joiner"
+REPO_URL = "https://github.com/KOUSHIKSAVANTH/Multi_Video_Joiner"
